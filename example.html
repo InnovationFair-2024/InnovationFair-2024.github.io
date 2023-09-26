@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAMPLE IDEA SUBMISSION</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">EXAMPLE IDEA SUBMISSION</h2>
+    
+    <h4>Overview of the idea</h4>
+    <p>Minimum font size: 10pt, Times New Roman font. Max two pages including tables, diagram, references (if any):</p>
+    <p>The idea is to create an AI model to detect human activity such as walking, running and being at stationary position. The AI model will take motion sensors data such as accelerometer, gyroscope, etc to capture motion data. The AI model should be able to detect and categorise the motion as walking, running and stationary position. Steps</p>
+    <ul>
+        <li>Create an AI model for human activity recognition keeping in mind low footprint micro-controller </li>
+        <li>Train the model with the data set to classify the different activities</li>
+        <li>Generate C-code using the STM32CubeMX tool by giving input as the AI model in H5, .tflite or .onnx format supported by STM32CubeMX tool</li>
+        <li>Validate the size of the C code generated based on the AI model created using the STM32CubeMX tool</li>
+        <li>Validate of AI model with the correct classification of human activity</li>
+    </ul>
+
+    <h4>References:</h4>
+    <!-- Image Placeholder -->
+    <img src="images/ai_model_human_activity.png" alt="Image Description" class="img-fluid mb-4">
+    <ul>
+        <li>Data Sets sources</li>
+        <li>AI Model sources</li>
+        <li>Tool used to create the AI Model </li>
+        <li>Paper references </li>
+    </ul>
+
+    <h4>Example of its application</h4>
+    <p><strong>(Describe an example consisting of potential application/Future application. This will enable usage model towards its market acceptance)</strong>></p>
+    <p>The AI Model will help to classify the motion of person who are employed in material movement activities. In a typical Industrial IOT for example in a big warehouse, material movement is a routine activity. A battery-based electronic system having AI to classify the movement of the object on dashboard with following sign / legend will be helpful in tracking.</p>
+    <ul>
+        <li style="background-color: red; color: white;">Red: Stationary</li>
+        <li style="background-color: yellow;">Yellow: Walking / Slow Movement</li>
+        <li style="background-color: green; color: white;">Green: Running / Fast movement</li>
+    </ul>
+
+    <h4>Benefits and Value addition</h4>
+    <p><strong>(Explain what the key benefits of your idea/implementation are. You should describe key value addition of your idea as this will explain why your idea has value in presence of other competitor(s) OR Players. In a way it will show uniqueness/Unique selling point/key differentiator)</strong></p>
+    <p>The electronic system is based on micro-controller sensors and battery based that consumes very less power. Beyond the classification of the movement, it can also help in classifying the speed of moving objects beyond the classifying stationary, walking, and running.</p>
+    <h4>Team Members:</h4>
+    <p>List your team members’ names, branch, and affiliations & contact emails here. Include the name of university/college and your shipping address.</p>
+</div>
+
+<!-- Add Bootstrap JS and Popper.js scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
